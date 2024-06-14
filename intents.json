@@ -1,0 +1,197 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello", "hey", "hi", "good day", "Greetings", "What's up", "how it's going?",
+        "how are you?", "howdy", "how's everything?", "hiya", "hi there", "hey there",
+        "hey, how are you?", "what's good?", "what's new?", "good to see you",
+        "nice to meet you", "how have you been?", "long time no see", "how do you do?",
+        "hi friend", "hi buddy", "hi everyone", "morning", "afternoon", "evening"
+      ],
+      "responses": [
+        "Hello! Welcome to our store!", "Hey there! How can I assist you today?", "Hi! How can I help you?",
+        "Hello! Looking for something specific?", "Greetings! How can I help you find what you need?",
+        "Hi there! What are you looking for today?", "Hey! How can I assist you with your shopping?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya", "See you later", "Goodbye", "I am leaving", "Have a good day", "Bye",
+        "cao", "see ya", "farewell", "catch you later", "see you soon", "I'm off", "talk to you later",
+        "until next time", "gotta go", "see you around", "peace out", "take care",
+        "bye bye", "see you next time", "later", "I'm out", "adios"
+      ],
+      "responses": [
+        "Thanks for visiting! See you soon!", "Goodbye! Have a great day!", "Bye! Come back soon!",
+        "See you next time! Happy shopping!", "Take care! Hope to see you again!",
+        "Goodbye! Don't hesitate to come back if you need more help!", "Farewell! Enjoy the rest of your day!"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old", "how old are you", "What's your age", "How old are you", "age?",
+        "What is your age?", "Tell me your age", "How many years old are you?",
+        "When were you created?", "What's your birthdate?", "How long have you been around?",
+        "When were you born?", "Are you young?", "Are you old?", "How old do you get?"
+      ],
+      "responses": [
+        "I was created to help you shop!", "I'm timeless, just like our fashion!", "Age is just a number, and I don't have one!",
+        "I was brought to life by the latest technology.", "Age doesn't apply to me, I'm here to assist you!",
+        "I'm as old as the trendiest clothes in our store!", "I don't have an age, I'm always here to help you."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what's your name", "what should I call you", "What's your name?", "Who are you",
+        "Can you tell me your name?", "What's your name?", "May I know your name?", "Your name?",
+        "Do you have a name?", "What is your name?", "Who am I talking to?", "Identify yourself",
+        "Tell me your name", "Can I know your name?", "What can I call you?", "Do you go by any name?"
+      ],
+      "responses": [
+        "I'm your personal shopping assistant!", "You can call me ShopBot!", "I'm ShopBot, your virtual shopping assistant.",
+        "My name is ShopBot, and I'm here to help you shop!", "Call me ShopBot!", "I'm ShopBot, how can I assist you today?",
+        "I'm ShopBot, your guide to all things fashion."
+      ]
+    },
+    {
+      "tag": "shop",
+      "patterns": [
+        "I would like to buy something", "what are your products?", "What do you recommend?",
+        "What are you selling?", "Show me your products", "What can I buy?", "What's for sale?",
+        "Do you have any recommendations?", "Can I see your products?", "What do you have for sale?",
+        "I'm interested in buying", "What can you offer?", "What do you have in stock?",
+        "Can you show me what you sell?", "Do you have any products?", "What items do you sell?",
+        "What's in your store?", "Can you recommend something to buy?", "What do you suggest?",
+        "I'm looking to purchase something", "What are your bestsellers?", "Show me the latest trends"
+      ],
+      "responses": [
+        "Check out our latest collection here!", "We have a wide range of products, from casual to formal wear.",
+        "Here are some of our top recommendations for you.", "Take a look at our new arrivals!",
+        "We have everything from dresses to accessories. What are you interested in?",
+        "Here are some items that might catch your eye.", "Our bestsellers are currently on sale, check them out!",
+        "You might like these items from our latest collection.", "We have new arrivals in every category. What do you need?",
+        "Our store is full of stylish options. Let me show you some.", "We recommend these trending products.",
+        "Our latest trends are just a click away. Have a look!", "Here are some popular choices among our customers."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "When are you guys open", "what are your hours", "Hours of operations",
+        "What time do you open?", "When do you close?", "Operating hours?", "Business hours?",
+        "What are your working hours?", "What time do you open and close?",
+        "When can I visit?", "What are your store hours?", "What time does your store open?",
+        "When is your store open?", "During which hours are you open?", "What are your opening times?",
+        "Can you tell me your hours?", "When are you available?", "What is your schedule?",
+        "When can I come?", "What time do you open each day?"
+      ],
+      "responses": [
+        "We are open 24/7 online! Shop anytime you like.", "Our online store is always open, feel free to browse and shop.",
+        "You can visit our website and shop at any time, we're open 24 hours.", "Our store never closes! Shop anytime.",
+        "We're always open for your convenience, 24/7.", "Feel free to shop online at any time, day or night.",
+        "Our online shop is open all day, every day. Happy shopping!"
+      ]
+    },
+    {
+      "tag": "stocks",
+      "patterns": [
+        "What stocks do I own?", "How are my shares?", "What company am I investing in?",
+        "What am I doing", "Can you show me my stocks?", "Which stocks do I have?",
+        "Tell me my stocks", "What shares do I hold?", "What investments do I have?",
+        "List my stocks", "What are my investments?", "What stocks are in my portfolio?",
+        "What companies have I invested in?", "Show me my stock holdings", "What are my shares?",
+        "What equities do I own?", "What stocks are in my account?", "Can I see my stocks?",
+        "Which companies am I invested in?", "Can you list my stocks?", "What are my stock positions?",
+        "What stocks am I holding?", "Show me the stocks I own"
+      ],
+      "responses": [
+        "You own the following shares: ABBY, AAPL, FB, NVDA, and an ETF of the S&P 500 Index!",
+        "Your portfolio includes ABBY, AAPL, FB, NVDA, and an S&P 500 ETF",
+        "You have shares in ABBY, AAPL, FB, NVDA, and an S&P 500 ETF",
+        "Your investments are: ABBY, AAPL, FB, NVDA, and an S&P 500 ETF",
+        "You are invested in ABBY, AAPL, FB, NVDA, and an ETF tracking the S&P 500",
+        "Your stock holdings include ABBY, AAPL, FB, NVDA, and an S&P 500 ETF"
+      ]
+    },
+    {
+      "tag": "returns",
+      "patterns": [
+        "How can I return an item?", "What is your return policy?", "Can I return this?",
+        "I need to return something", "How do I return a purchase?", "What are your return conditions?",
+        "Can I return my order?", "How do returns work?", "What's the process for returning items?",
+        "I want to return a product", "What do I need to do to return something?", "Can you help me with a return?",
+        "How do I start a return?", "Is returning an item easy?", "What are the steps to return an item?"
+      ],
+      "responses": [
+        "You can return any item within 30 days of purchase. Just contact our support for help.",
+        "Our return policy allows returns within 30 days. Please visit our returns page for more details.",
+        "To return an item, please go to our returns section on the website and follow the instructions.",
+        "Returning an item is easy! Check out our return policy for details.",
+        "You can initiate a return by visiting our website and going to the returns section.",
+        "We accept returns within 30 days of purchase. Please contact our customer service for assistance.",
+        "To start a return, visit our returns page and follow the instructions provided."
+      ]
+    },
+    {
+      "tag": "shipping",
+      "patterns": [
+        "What are your shipping options?", "How long does shipping take?", "Do you offer free shipping?",
+        "What are the shipping costs?", "How is shipping calculated?", "When will my order arrive?",
+        "What shipping methods do you use?", "Can I track my order?", "Is there expedited shipping?",
+        "How long will it take for my order to be delivered?", "Do you ship internationally?",
+        "What is the estimated delivery time?", "How much is shipping?", "Do you have next-day delivery?"
+      ],
+      "responses": [
+        "We offer standard, expedited, and next-day shipping options. Shipping costs vary based on the method chosen.",
+        "Shipping times vary depending on the shipping method. Standard shipping takes 5-7 days, expedited takes 2-3 days, and next-day shipping is available.",
+        "We offer free standard shipping on orders over $50.",
+        "You can track your order using the tracking number provided in your shipping confirmation email.",
+        "Yes, we ship internationally! Delivery times and costs vary based on the destination.",
+        "For detailed shipping information, please visit our shipping page.",
+        "We provide various shipping methods to suit your needs, including standard and expedited options."
+      ]
+    },
+    {
+      "tag": "discounts",
+      "patterns": [
+        "Do you have any discounts?", "What are your current promotions?", "Are there any sales?",
+        "Can I get a discount?", "What discounts are available?", "Are there any deals?",
+        "Do you have any coupon codes?", "What's on sale?", "How can I save money on my purchase?",
+        "Are there any offers?", "Can I use a promo code?", "What promotions do you have?",
+        "Any special offers?", "Are there any discounts for new customers?", "Is there a first-time buyer discount?"
+      ],
+      "responses": [
+        "We have various discounts and promotions running. Check out our promotions page for the latest deals.",
+        "You can find our current discounts and sales on the homepage.",
+        "Sign up for our newsletter to receive exclusive discounts and promotions.",
+        "We offer special discounts for first-time buyers. Use code NEWCUSTOMER at checkout.",
+        "There are seasonal sales and promotions available. Visit our sales section to learn more.",
+        "We regularly update our discounts. Visit the promotions page to see what's available.",
+        "Check out our sales page for the latest deals and discounts."
+      ]
+    },
+    {
+      "tag": "sizing",
+      "patterns": [
+        "What sizes do you offer?", "How do I know my size?", "Do you have a size chart?",
+        "What size should I buy?", "Can you help me find my size?", "Do you have plus sizes?",
+        "Are your sizes true to fit?", "How does your sizing work?", "What sizes are available for this item?",
+        "Do you offer petite sizes?", "What size should I get for this?", "Do you have a sizing guide?",
+        "How can I find the right size?", "Are your clothes available in all sizes?"
+      ],
+      "responses": [
+        "We offer a wide range of sizes. You can check our size chart on the product page for detailed measurements.",
+        "Our size chart is available on every product page to help you find the perfect fit.",
+        "We offer sizes from XS to XXL. Please refer to our size guide for more information.",
+        "To find your size, please use the size chart provided on the product page.",
+        "We have a detailed sizing guide available. Check it out to find your perfect fit.",
+        "Our sizes are designed to fit true to size. Refer to our size chart for measurements.",
+        "We offer petite and plus sizes. Please check the product page for available sizes."
+      ]
+    }
+  ]
+}
